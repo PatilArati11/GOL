@@ -488,4 +488,16 @@
             </reporting>
         </profile>
     </profiles>
+    <distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>inmumvsl-releases</name>
+        <url>http://inmumvsl:8081/artifactory/temp</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>inmumvsl-snapshots</name>
+        <url>http://inmumvsl:8081/artifactory/temp</url>
+    </snapshotRepository>
+</distributionManagement>
 </project>
